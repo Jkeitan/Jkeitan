@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com imagens de diversos tamanhos.</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir essa imagem em varios dispositivos diferentes ou aumente e diminua o tamanho do seu navegador.</p>
+
+<picture>
+    <source media="(max-width: 750px )" srcset="imagens para treinar/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens para treinar/foto-m.png" type="image/png">
+    <img srcset="imagens para treinar/foto-p.png 320w,
+    imagens para treinar/foto-p.png 480w,
+    imagens para treinar/foto-m.png 800w"
+     sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+     src="imagens para treinar/foto-g.png" alt="imagem reponsiva">
+</picture>
+
+<div>
+    <audio preload="metadata" autoplay controls loop >
+    <source src="../EXERCICIOS/media/stellarwind-Unicornheads.mp3" type="audio/mpeg">
+    <source src="../EXERCICIOS/media/stellarwind-Unicornheads.mp3" type="audio/ogg">
+    <source src="media/stellarwind-Unicornheads.mp3" type="audio/mp3">
+    <div>
+        <p>Infelismente seu navegador não reproduz audio clique aqui pra fazer o download do arquivo.</p>
+    </div>
+    <a href="stellarwind-Unicornheads.mp3">Download</a>
+    </audio>
+    <video width="400px" controls poster="imagens para treinar/foto-p.png" src="media/pexels-rodnae-productions-8711391.mp4"></video>
+</div>
+<div>
+    <h1>Esse video eu coloquei do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/p_N0zAlo0DA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
