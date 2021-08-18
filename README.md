@@ -8,7 +8,7 @@
         <li><h1 style="color: blue">Jeferson</h1></li>
     </ul>
   <ul>
-         <li style="square">Vou ser um dos melhores no ramo.</li>
+      <p>Pode Bisbilhotar</p>
          <li><a href="https://www.linkedin.com/in/jeferson-caetano-bb2a51212/">Linquedim</a></li>
          <li><a href="https://www.facebook.com/jeferson.caetano.show">Feicebuque</a></li>
          <li><a href="https://www.instagram.com/apenas_jeferson/">instagram </a> </li>    
